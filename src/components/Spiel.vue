@@ -1,19 +1,24 @@
 <template>
-  <div class="hello">
+  <div class="spiel">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-    <IncButton/>
+    <ul>
+
+      <li>
+        <a
+          href="https://vuejs.org"
+          target="_blank"
+        >
+          Core Docs
+        </a>
+      </li>
+     
+    </ul>
   </div>
 </template>
-
 <script>
-import IncButton from '@/components/IncButton'
-
 export default {
-  name: 'HelloWorld',
-  components: {
-    IncButton
-  },
+  name: 'Spiel',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
