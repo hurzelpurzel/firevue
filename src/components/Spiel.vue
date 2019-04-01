@@ -12,7 +12,7 @@
           Core Docs
         </a>
       </li>
-     
+
     </ul>
   </div>
 </template>
