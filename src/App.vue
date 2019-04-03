@@ -1,9 +1,11 @@
 <template>
   <div>
+    <b-container>
     <Header/>
     <div id="app">
       <router-view/>
     </div>
+    </b-container>
   </div>
 </template>
 
